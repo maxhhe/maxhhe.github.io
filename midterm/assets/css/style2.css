@@ -1,0 +1,99 @@
+html {
+    background: #D6C56D;
+}
+
+.navbar {
+    width: 100%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    margin-top: 0px;
+    background-color: #D6C56D; /* change to desired color */
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 153px;
+    height: 76px;  
+    margin-right: 20px;
+    margin-top: 0px;    /* if you want it vertically middle of the navbar. */
+}  
+
+
+.navbar a {
+    font-family: 'Karantina', cursive;
+    font-size: 35px;
+
+    float: right;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 65px;    /* if you want it vertically middle of the navbar */
+    
+    transition: 0.4s ease;
+}
+
+.navbar a:hover{
+    color: #A5484E;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 647.84px;
+    height: 156.78px;
+    left: -303px;
+    top: 205.34px;  
+    background: #A5484E;
+    transform: rotate(-9deg);
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 1000px;
+    height: 720px;
+    left: 470px;
+    top: 160px;
+
+    background: #C88B30;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.menu {
+    position: absolute;
+    width: 96px;
+    height: 71px;
+    left: 127px;
+    top: 160px;
+    font-family: 'Karantina';   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+color: #FFFFFF;
+}
+
+.menulayout {
+    position: absolute;
+    width: 756px;
+    height: 696px;
+    left: 550px;
+    top: 185px;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    color: #000000;
+
+}
+
+.white {
+    color: white;
+}
