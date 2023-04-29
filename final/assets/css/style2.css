@@ -1,0 +1,289 @@
+
+.css-blurry-gradient {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgb(0, 183, 255), rgba(0, 183, 255, 0));
+    opacity: 0.4;
+    
+    z-index: -1;
+  }
+  
+
+  .css-blurry-gradient2 {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -30%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+    opacity: 0.4;
+   
+    z-index: -1;
+  }
+
+  .css-blurry-gradient3 {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(10%, -10%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgb(217, 0, 255), rgba(217, 0, 255, 0));
+    opacity: 0.4;
+  
+    z-index: -1;
+  }
+
+  #text1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+ 
+
+  
+
+  .mainecoon {
+    margin-top: 10px;
+    margin-left: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  #text2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 750px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  .dwarfcat {
+    margin-top: 10px;
+    margin-left: 750px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  #text3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  .sphynxcat {
+    margin-top: 10px;
+    margin-left: 250px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  #text4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 600px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  .bengalcat {
+    margin-top: 10px;
+    margin-left: 600px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  #text5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 800px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  .siamesecat {
+    margin-top: 10px;
+    margin-left: 800px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  #text6 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 200px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+  .lioncat {
+    margin-top: 10px;
+    margin-left: 250px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding-bottom: 50px;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.finalthoughts {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 35%;
+    padding-bottom: 20px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+#link {
+    text-decoration: none;
+    color:black;
+}
+
+.finalthoughts a:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}

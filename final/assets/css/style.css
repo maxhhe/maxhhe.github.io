@@ -1,0 +1,166 @@
+.bigtitle {
+    display:inline-flex;
+    
+    align-items: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
+    margin-left: 23.5%;
+    
+    margin-top: 20%;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+.smalltitle {
+    font-family: 'Shadows Into Light', cursive;;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    animation: fadeInAnimation ease 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(112, 0, 250);
+}
+
+.smalltitle a:hover {
+    opacity: 0.3;
+    transition: 0.5s ease
+}
+
+.css-blurry-gradient {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgb(0, 183, 255), rgba(0, 183, 255, 0));
+    opacity: 0.4;
+    animation: fadeInAnimation1 ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: -1;
+  }
+  @keyframes fadeInAnimation1 {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.4;
+     }
+}
+
+  .css-blurry-gradient2 {
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -30%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgba(76, 0, 255, 1), rgba(76, 0, 255, 0));
+    opacity: 0.4;
+    animation: fadeInAnimation1 ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: -1;
+  }
+
+  .css-blurry-gradient3 {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(10%, -10%);
+    width: 800px;
+    height: 800px;
+      border-radius: 50% 22% 40% 80%;  
+      filter: blur(100px);
+    background: radial-gradient(circle at 50% 50%,rgb(217, 0, 255), rgba(217, 0, 255, 0));
+    opacity: 0.4;
+    animation: fadeInAnimation1 ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: -1;
+  }
+
+  .word1 {
+    padding: 5px;
+    animation-name: floating1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating1 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.word2 {
+    padding: 5px;
+    animation-name: floating2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating2 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.word3 {
+    padding: 5px;
+    animation-name: floating3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating3 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.word4 {
+    padding: 5px;
+    animation-name: floating4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating4 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 7px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.word5 {
+    padding: 5px;
+    animation-name: floating5;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating5 {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
